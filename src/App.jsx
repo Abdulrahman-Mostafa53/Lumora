@@ -1,10 +1,11 @@
-import Navbar from "./components/Navbar.jsx"
+
+import Main from "./components/Main"
 
 function App() {
 
   return (
     <>
-      <Navbar/>
+      <Main/>
     </>
   )
 }
