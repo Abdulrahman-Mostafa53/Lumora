@@ -1,14 +1,15 @@
-
+import { FaHurricane } from "react-icons/fa6";
+import { FaSyncAlt } from "react-icons/fa";
 //   purpose section
 
-export const features = [
+ export const purpose = [
     {
-      icon: "🟣", // Replace with your actual icon component or image
+      icon: <FaHurricane className="text-5xl text-purple-700 shadow-purple-400 shadow-sm rounded-full p-1 group-hover:rotate-90 transition-all duration-300"/>,
       title: "Built for impact",
       description: "We identify and nurture a truly diverse team of designers, developers and marketers"
     },
     {
-      icon: "🔴", // Replace with your actual icon component or image
+      icon: <FaSyncAlt className="text-5xl text-red-600 shadow-red-400 shadow-sm rounded-full p-1 group-hover:rotate-90 transition-all duration-300"/>, // Replace with your actual icon component or image
       title: "In sync with you",
       description: "We work the way you do by adapting to your workflows and rhythm we aim to blend in for a seamless."
     }
@@ -35,6 +36,7 @@ export const features = [
   ]
 
 //   services section
+/*
 const services = [
     {
       icon: <BsStack className="w-8 h-8 text-indigo-600" />,
@@ -61,7 +63,7 @@ const services = [
       link: "#learn-more"
     }
   ]
-
+*/
 //   testimonials section
 
 const testimonials = [
